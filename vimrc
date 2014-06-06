@@ -15,6 +15,7 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
+Plugin 'flazz/vim-colorschemes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -32,5 +33,5 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax enable
-
+colorscheme solarized
 map <C-n> :NERDTreeToggle<CR>
