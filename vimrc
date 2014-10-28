@@ -17,6 +17,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'flazz/vim-colorschemes'
 Bundle 'solarnz/thrift.vim'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'markcornick/vim-vagrant.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
